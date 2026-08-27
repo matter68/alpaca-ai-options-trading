@@ -1,0 +1,48 @@
+# Environment variables (contains API keys - NEVER commit these!)
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Performance reports (generated files)
+Desktop/Performance Reports/
+*.pdf
+
+# Backtest data (can be regenerated)
+backtest_trade_journal.json
+
+# Temporary files
+*.tmp
+temp/
